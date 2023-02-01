@@ -1,0 +1,40 @@
+body {
+    font-family: "serif";
+    padding: 50px; 
+}
+.left-section {
+    position: absolute; 
+        top: 50%;
+        transform: translate(30%, -50%);
+    }
+.top {
+        background-color: black;
+        padding: 5px 30px 5px;
+        color: white;
+    text-align: center;
+}
+.top a {
+    color: white;
+    text-decoration: none;    
+}
+.middle {
+    text-align: center;
+    padding-top: 50px;
+}
+.middle a {
+    color: black;
+    text-decoration: none;
+    }
+.right-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 30px auto;
+    width: 720px;
+    height: 1000px;
+    overflow: auto;
+}
+.right-section a {
+    color: black;
+    text-decoration: none;
+}

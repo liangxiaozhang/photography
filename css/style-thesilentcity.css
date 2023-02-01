@@ -1,0 +1,65 @@
+body {
+    font-family: "serif";
+    padding: 50px; 
+}
+.left-section {
+    position: absolute; 
+        top: 50%;
+        transform: translate(30%, -50%);
+    }
+.top {
+        background-color: black;
+        padding: 5px 30px 5px;
+        color: white;
+    text-align: center;
+}
+.top a {
+    color: white;
+    text-decoration: none;    
+}
+.middle {
+    text-align: center;
+    padding-top: 50px;
+}
+.middle a {
+    color: black;
+    text-decoration: none;
+    }
+.right-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%);
+    width: 1020;
+    height: 1000;
+    overflow: auto;
+    margin: 30px auto;
+}
+.artist-statement {
+    width: 800;
+    font-size: large;
+    text-align: justify
+}
+.s1 {
+    padding: 30px 0 80px;
+}
+.s2 {
+    padding: 30px 0 80px;
+}
+.s3 {
+    padding: 30px 0 80px;
+}
+.s4 {
+    padding: 30px 0 80px;
+}
+.s5 {
+    padding: 30px 0 80px;
+}
+.s6 {
+    padding: 30px 0 80px;
+}
+.s7 {
+    padding: 30px 0 80px;
+}
+.s8 {
+    padding: 30px 0 80px;
+}

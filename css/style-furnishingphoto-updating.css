@@ -1,0 +1,49 @@
+body {
+    font-family: "serif";
+    padding: 50px; 
+}
+.left-section {
+    position: absolute; 
+        top: 50%;
+        transform: translate(30%, -50%);
+    }
+.top {
+        background-color: black;
+        padding: 5px 30px 5px;
+        color: white;
+    text-align: center;
+}
+.top a {
+    color: white;
+    text-decoration: none;    
+}
+.middle {
+    text-align: center;
+    padding-top: 50px;
+}
+.middle a {
+    color: black;
+    text-decoration: none;
+    }
+.right-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-45%);
+    width: 1220px;
+    height: 1000px;
+    overflow: auto;  
+}
+.photo-grid {
+    display: grid; 
+    width: 1000px;
+    grid-template-areas:
+    "test1 test2";
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 430px 30px;
+}
+.test1 {
+    padding: 30px, 30px, 30px, 30px;
+}
+.test2 {
+    padding: 30px;
+}

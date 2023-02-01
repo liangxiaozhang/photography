@@ -1,0 +1,30 @@
+body {
+    font-family: "serif";
+    padding: 50px;
+}
+.left-section {
+    position: absolute; 
+        top: 50%;
+        transform: translate(30%, -50%);
+    }
+.top {
+        background-color: black;
+        padding: 5px 30px 5px;
+        color: white;
+    text-align: center;
+}
+.middle {
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+.middle a {
+    color: black;
+    text-decoration: none;
+    }
+.right-section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -45%);
+}
