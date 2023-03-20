@@ -1,0 +1,109 @@
+body {
+    font-family: "serif";
+    padding: 50px; 
+}
+.left-section {
+    position: absolute; 
+        top: 50%;
+        transform: translate(30%, -50%);
+    }
+.top {
+        background-color: black;
+        padding: 5px 30px 5px;
+        color: white;
+    text-align: center;
+}
+.top a {
+    color: white;
+    text-decoration: none;    
+}
+.middle {
+    text-align: center;
+    padding-top: 50px;
+}
+.middle a {
+    color: black;
+    text-decoration: none;
+    }
+.right-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-35%);
+    width: 1380px;
+    height: 1000px;
+    overflow: auto;  
+}
+.photo-flow {
+    display: flex; 
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.f1 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f4 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f5 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f6 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f7 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f8 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f11 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f12 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f13 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f14 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f17 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f17 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f18 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f19 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f20 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f21 {
+    border: 1px solid #ccc
+    padding 20px;
+}
+.f22 {
+    border: 1px solid #ccc
+    padding 20px;
+}
